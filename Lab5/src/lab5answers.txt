@@ -1,0 +1,35 @@
+Q1)
+   1   2   3   4   5
+   2   4   6   8  10
+   3   6   9  12  15
+   4   8  12  16  20
+   5  10  15  20  25
+
+Q2)
+    This method is not void method and returns a value of
+    private or protected variable.
+
+Q3)
+    This method is a void method, and only changes the
+    values in private or protected variable.
+
+Q4)
+    Instance variable are usually public.
+
+Q5)
+    Private: No,
+    Public : Yes,
+    Protected: Local variables with in the same subclass and package, yes.
+
+Q6)
+    a) All the code can access.
+    b) Only the class, others need to reach by getters or setters.
+    c) Class, package and subclasses variables can reach directly, the other variables
+        must use getters or setters to have the access to myString.
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+/**
+ * Sai Ram Thota
+ * CWID 11573236
+ *
+ */
+
+Q1) By convention, variable names in Java use camel case. Describe what this is:
+A) It means that variable names have to be saved like the following exampleOne, example2, exampleThree, and
+lastExampleFour.
+
+Q2) What is the difference between the style for a class name and a variable name in Java?
+A)  The only difference is class names start with uppercase letter and variable names starts with a lowercase
+letter. But, they both are camel case again. Examples are ThisIsClassName and thisIsVariableName.
+
+Q3) What is the standard indentation style for curly braces in Java?
+A)  The standard indentation in java is like
+    if()
+    {
+    ....
+    } and so on.
+
+Q4) Why is proper indentation important in Java code?
+A)  For code readability, and understanding. It is very important to have this practice, so that when
+we write programs with lines greater than 100 it will be easy to follow.
+
+Q5) What is the common way to specify a constant value in Java?
+A)  Constant value is initialized using the "final" keyword and constant names are all uppercase.
+ For example, THIS_IS_CONSTANT is a constant name.
+
+Q6) What unnamed constants are usually acceptable in a Java program?
+A)  Numerical constants.
+
+Q7) Which of the bits of code below follow the coding standards? Write the letters of the expressions that
+follow the coding standards on your answer sheet.
+
+        a) int a; => true
+
+        b) int A; => false; int a;
+
+        c) public class FunClass => true
+
+        d) public static final int my_const = 3; => false; public static final int MY_CONST = 3;
+
+        e) public int myFunction(int n) => true
+
+        f) public boolean MyBooleanFunction(boolean b) => false; public boolean myBooleanFunction(boolean b)
+
+Q8) If b is of type int, and c is of type double, what are the types of the following expressions? Write the types
+of the expressions on your answer sheet.
+
+        a. b % 3 => int
+
+        b. b + 4 => int
+
+        c. b * 2.0 => double
+
+        d. c / 2 => double
+
+        e. b + c => double
+
+Q9) Why would a programmer want to define custom classes instead of just using primitive types such as int and
+float?
+A) To make use of Java's object oriented programming techniques. It is no use of programming if we can't define
+our own custom classes. In my point of view, Building big apps starts from custom classes.
+
+Q10) Between objects and classes, which is more like a template, and which is more like a specific thing?
+A)

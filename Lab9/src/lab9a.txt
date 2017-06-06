@@ -1,0 +1,2 @@
+Please enter a string: 
+esreveR

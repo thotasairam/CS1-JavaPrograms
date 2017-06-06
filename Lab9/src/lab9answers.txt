@@ -1,0 +1,41 @@
+/**
+ * Sai Ram Thota
+ * CWID 11573236
+ *
+ */
+
+Q1)
+    Command line prompt printed: "olleH"
+
+Q2)
+    Usage: java ReverseCL2 <any word>
+
+Q3)
+    Integer.parseInt(args[0]);
+
+Q4)
+    System.out.println("Please enter a string: ");
+
+        Scanner n = new Scanner(System.in);
+
+        String s = n.nextLine();
+
+Q5)
+    java MyClass < input2.txt
+
+Q6)
+    java MyClass < input.txt > output.txt
+
+Q7)
+    Please enter a string:
+    esreveR
+
+Q8)
+    Please enter a string:
+    esreveR
+
+Q9)
+    Scanner fileNameScanner = new Scanner(new File(fileName));
+
+Q10)
+    writer.println(n);

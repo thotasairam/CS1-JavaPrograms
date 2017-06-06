@@ -1,0 +1,33 @@
+/**
+ * Sai Ram Thota
+ * CWID 11573236
+ * Lab 8 answers
+ */
+
+Q1)
+
+    double[][] arr2D = new double[4][9];
+
+Q2)
+
+    0 1 0 0 0 0 0 0 0
+
+    0 7 0 0 0 0 0 0 0
+
+    0 0 0 4 0 8 0 0 0
+
+    0 0 0 0 0 0 0 0 0
+
+Q3)
+
+    for (int r=0; r < arr2D.length; r++)
+    {
+        for (int c=0; c < arr2D[r].length; c++)
+        {
+            arr2D[r][c]++ ;
+        }
+    }
+
+Q4)
+
+    int[][][] b = new int[10][10][10];

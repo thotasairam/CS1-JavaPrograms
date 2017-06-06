@@ -1,0 +1,40 @@
+/**
+ * Sai Ram Thota
+ * CWID 11573236
+ * Lab 6answers.txt
+ */
+
+Q1)
+    ArrayList<Student> studentsArrayList = new ArrayList<Student>;
+
+Q2)
+    stringList.remove(stringList.size()-1);
+
+Q3)
+
+    "Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and
+    their corresponding object wrapper classes."
+
+    source: https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html
+
+Q4)
+
+    Double
+
+Q5)
+    for(int i =0; i<myList.size(); i++)
+    {
+        System.out.println( myList.get(i) );
+    }
+
+Q6)
+    for(String temp: myList)
+    {
+        System.out.println(temp);
+    }
+
+Q7)
+    HashMap<String, Integer> plants = new HaspMap<String, Integer>();
+
+    int grassValue = plants.get("grass");
+

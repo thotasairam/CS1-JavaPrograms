@@ -1,0 +1,115 @@
+/**
+ * Sai Ram Thota
+ * CWID 11573236
+ *
+ */
+
+Q1. remove the first quotation mark in the string of the first println statement
+
+    (a) Compiler outputs a syntax error.
+
+    (b) Lab1.java:19: error: ')' expected
+                System.out.println(Please enter an integer.);
+                                         ^
+        Lab1.java:19: error: ';' expected
+                System.out.println(Please enter an integer.);
+
+
+Q2. change "public class Lab1" to "public class lab1". Do not change the name of the file.
+
+    (a)  Error is related to file name mismatch.
+
+    (b) Lab1.java:7: error: class lab1 is public, should be declared in a file named lab1.java
+        public class lab1
+
+
+Q3. change "int iX, iY;" to "int iX, IY;"
+
+    (a) Error might be regarding variable initialization.
+
+    (b) Lab1.java:25: error: cannot find symbol
+                iY = keyboard.nextInt();
+                ^
+          symbol:   variable iY
+          location: class Lab1
+        Lab1.java:31: error: cannot find symbol
+                System.out.println(iX + " + " + iY + " = " + (iX+iY));
+
+          symbol:   variable iY
+          location: class Lab1
+        Lab1.java:31: error: cannot find symbol
+                System.out.println(iX + " + " + iY + " = " + (iX+iY));
+                                                                 ^
+          symbol:   variable iY
+          location: class Lab1
+        3 errors
+
+
+Q4. remove the statement "import java.util.Scanner;"
+
+    (a) Error might be pointing to Scanner object.
+
+    (b) Lab1.java:15: error: cannot find symbol
+                Scanner keyboard = new Scanner(System.in);
+                ^
+          symbol:   class Scanner
+          location: class Lab1
+        Lab1.java:15: error: cannot find symbol
+                Scanner keyboard = new Scanner(System.in);
+                                       ^
+          symbol:   class Scanner
+          location: class Lab1
+        2 errors
+
+
+Q5. remove the semicolon at the end of the line "Scanner keyboard = new Scanner(System.in);"
+
+    (a) Error might be related to syntax.
+
+    (b) Lab1.java:15: error: ';' expected
+                Scanner keyboard = new Scanner(System.in)
+                                                         ^
+        1 error
+
+Q6. change "iX = keyboard.nextInt();" to "iX = keyboard.next();"
+
+    (a) Error regarding primitive type mismatch.
+
+    (b) Lab1.java:21: error: incompatible types: String cannot be converted to int
+                iX = keyboard.next();
+                                  ^
+        1 error
+
+Q7. Remove the close curly brace } at the end of the program.
+
+    (a) Error is related to syntax.
+
+    (b) Lab1.java:33: error: reached end of file while parsing
+            } // End of main
+             ^
+        1 error
+
+Q8. remove the first "i" in the statement "import java.util.Scanner;"
+
+    (a) Error can be pointing to misspelled import word and Scanner object.
+
+    (b) Lab1.java:5: error: class, interface, or enum expected
+        mport java.util.Scanner;
+        ^
+        1 error
+
+Q9. remove the statement "Scanner keyboard = new Scanner(System.in);"
+
+    (a) Error must be pointing to keyboard variable intialization.
+
+    (b) Lab1.java:21: error: cannot find symbol
+                iX = keyboard.nextInt();
+                     ^
+          symbol:   variable keyboard
+          location: class Lab1
+        Lab1.java:25: error: cannot find symbol
+                iY = keyboard.nextInt();
+                     ^
+          symbol:   variable keyboard
+          location: class Lab1
+        2 errors

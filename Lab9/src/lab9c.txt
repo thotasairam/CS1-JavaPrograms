@@ -1,0 +1,6 @@
+As with input, sometimes output cannot be done easily through redirection. For example, if your program needs
+to interleave writing to two different files, redirection will not work. In this case, we can use a PrintWriter.
+PrintWriter allows you to send output to a file in a way that is very similar to using System.out. Once opened,
+you can write to the file using the methods print, println, and printf, just as with System.out. For example:
+PrintWriter writer = new PrintWriter(new File("output.txt"));
+writer.println("hello");

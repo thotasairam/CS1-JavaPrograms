@@ -1,0 +1,60 @@
+/**
+ * Sai Ram Thota
+ * CWID 11573236
+ * Lab 6 Answers
+ */
+
+Q1)
+    double[] myDoubles;
+
+Q2)
+
+    All 99 elements in the array with indexes 0 to 98 have the value of 0 initially.
+
+Q3)
+    All the string elements will have null values.
+
+Q4)
+
+    int[] y = new int[10];
+
+    for( int i =0; i < y.length; i++)
+    {
+        y[i] = 1;
+    }
+
+Q5)
+    a[i] = 0
+    a[i] = 1
+    a[i] = 2
+    a[i] = 3
+
+Q6)
+    a[i] = 1
+    a[i] = 2
+    a[i] = 3
+    Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
+            at Lab6a.main(Lab6a.java:13)
+
+Q7)
+
+    for (int i=a.length-1; i >= 0; i--);
+
+Q8)
+    int[] f = {18, 19, 23, 45, 7};
+
+    for(int i = 1; i <=3; i++)
+    {
+       int fSecondDerivative = f[i-1] - (2*f[i]) + f[i+1];
+
+        System.out.println("fSecondDerivative[" + i +"] = " + fSecondDerivative);
+    }
+
+Q9)
+    String s = "fun string";
+    String[] s1000 = new String[1000];
+    Arrays.fill(s1000, s);
+
+Q10)
+    1000 string would be created, having indexes from 0 to 999.
+

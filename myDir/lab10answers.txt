@@ -1,0 +1,66 @@
+/**
+ * Sai Ram Thota
+ * CWID 11573236
+ *
+ */
+
+Q1)
+    Please enter the radius of the circle:
+    2
+    Please enter the length of the equilateral triangle:
+    3
+    Please enter the height of the rectangle:
+    4
+    Please enter the width of the rectangle:
+    2
+    Circle: Radius =  2.00 Area = 12.56 Perimeter = 12.56
+    EquilateralTriangle: Length =  3.00 Area = 3.90 Perimeter = 9.00
+    Rectangle: Height =  4.00 Width = 2.00 Area = 8.00 Perimeter = 12.00
+
+    Total Area = 24.46 and Total Perimeter = 33.56
+
+
+    Please enter the radius of the circle:
+    1
+    Please enter the length of the equilateral triangle:
+    4.5
+    Please enter the height of the rectangle:
+    10
+    Please enter the width of the rectangle:
+    12.2
+    Circle: Radius =  1.00 Area = 3.14 Perimeter = 6.28
+    EquilateralTriangle: Length =  4.50 Area = 8.77 Perimeter = 13.50
+    Rectangle: Height =  10.00 Width = 12.20 Area = 122.00 Perimeter = 44.40
+
+    Total Area = 133.91 and Total Perimeter = 64.18
+
+Q2)
+    Found me!
+
+Q3)
+    Error: Could not find or load main class Lab10
+
+Q4)
+    Error: Could not find or load main class myDir.Lab10
+
+Q5)
+    Found me!
+
+Q6)
+    Found me!
+
+Q7)
+
+    It is hard to find the Foo.class.
+    It can be either in home/myCLasses or home/otherClasses/
+
+    or myPackages.funPack.Foo
+
+Q8)
+    added manifest
+    adding: GeometricObject.class(in = 368) (out= 252)(deflated 31%)
+    adding: Circle.class(in = 766) (out= 464)(deflated 39%)
+    adding: Rectangle.class(in = 848) (out= 507)(deflated 40%)
+    adding: EquilateralTriangle.class(in = 891) (out= 522)(deflated 41%)
+    adding: ObjectCalculator.class(in = 1659) (out= 966)(deflated 41%)
+

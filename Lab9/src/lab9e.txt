@@ -1,0 +1,3 @@
+to interleave writing to two different files, redirection will not work. In this case, we can use a PrintWriter.
+you can write to the file using the methods print, println, and printf, just as with System.out. For example:
+writer.println("hello");

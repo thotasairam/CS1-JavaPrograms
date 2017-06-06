@@ -1,0 +1,4 @@
+Sum: 21.00 Product: 720.00 Average: 3.50 
+Sum: 15.00 Product: 120.00 Average: 5.00 
+Sum: 25.00 Product: 573.75 Average: 8.33 
+Sum: 27.60 Product: 767.56 Average: 9.20 

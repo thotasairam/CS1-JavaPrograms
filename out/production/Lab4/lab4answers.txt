@@ -1,0 +1,21 @@
+/**
+ * Sai Ram Thota
+ * CWID 11573236
+ *
+ */
+
+Q1.
+	a is not 3
+	done
+
+Q2.
+	Above four: 4.2000
+
+Q3.
+    i = 1
+    i = 3
+    i = 7
+    i = 15
+
+Q4.
+    java MyClass < myInput.txt
